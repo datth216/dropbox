@@ -12,10 +12,10 @@ function Header() {
                 </div>
                 <span className='py-4 px-2 text-2xl font-bold'>Dropbox</span>
             </Link>
-            <div className="flex space-x-5 px-5">
-                <UserButton afterSignOutUrl='/' />
+            <div className="flex space-x-5 px-5 items-center">
+                <UserButton afterSignOutUrl='/'/>
                 <SignedOut>
-                    <SignInButton afterSignInUrl='/' mode='modal'></SignInButton>
+                    <SignInButton afterSignInUrl='/dashboard' mode='modal'></SignInButton>
                 </SignedOut>
                 <ModeToggle />
             </div>
