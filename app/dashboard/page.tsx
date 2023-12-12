@@ -1,9 +1,11 @@
-import { UserButton, UserProfile } from '@clerk/nextjs'
-import React from 'react'
+import Dropzone from "@/components/Dropzone/Dropzone"
+
 
 function Dashboard() {
   return (
-    <div>Dashboard</div>
+    <>
+      <Dropzone />
+    </>
   )
 }
 

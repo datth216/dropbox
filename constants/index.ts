@@ -1,0 +1,1 @@
+export const MAX_SIZE_IMPORT = 20971520
